@@ -88,11 +88,19 @@ If the image is larger than the display area, it should be resized before conver
 
 ## Debian package
 
-The project includes a Debian packaging workflow and builds a `.deb` artifact via GitHub Actions.
+The project includes a Debian packaging workflow and builds a `.deb` artifact via GitHub Actions for Linux users.
 
-## Windows release
+## Windows usage
 
-The project also includes a PyInstaller workflow to generate a Windows `.exe` binary via GitHub Actions.
+For Windows users, the recommended approach is to install Python and the required dependencies, then run the script directly:
+
+```powershell
+py -m pip install --upgrade pip
+py -m pip install pillow
+py image_to_array.py
+```
+
+Make sure Python is installed with Tcl/Tk support enabled.
 
 ## License
 
