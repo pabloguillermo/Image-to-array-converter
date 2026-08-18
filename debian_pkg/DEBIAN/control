@@ -1,0 +1,8 @@
+Package: conversor-image-array
+Version: 1.0.0
+Section: utils
+Priority: optional
+Architecture: all
+Depends: python3, python3-tk, python3-pil
+Maintainer: Seu Nome <seu-email@exemplo.com>
+Description: Conversor de imagens PNG/JPG para array RGB565 em header C para TFT eSPI.
