@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Image to Array Converter
+Name[pt_BR]=Conversor de Imagem para Array
+Comment=Convert images to RGB565 C header arrays for TFT displays
+Comment[pt_BR]=Converte imagens em arrays RGB565 (header C) para displays TFT
+Exec=image_to_array
+Icon=image-x-generic
+Terminal=false
+Categories=Utility;Graphics;
+Keywords=image;array;rgb565;tft;header;
