@@ -2,6 +2,7 @@
 
 ## Changes in 1.0.2
 
+- Add an application menu entry (.desktop file)
 - Set the package maintainer name and e-mail in the Debian control file
 
 ## Changes in 1.0.1
