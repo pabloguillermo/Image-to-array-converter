@@ -1,4 +1,10 @@
-# Image-to-array-converter v1.0.0
+# Image-to-array-converter v1.0.1
+
+## Changes in 1.0.1
+
+- New window: choose a folder, compatible images (JPG, JPEG, PNG, BMP, GIF) are listed automatically with a preview on the right
+- Built-in folder picker that opens large and fits small screens
+- Valid C identifiers for file names with spaces, hyphens or leading digits
 
 ## Overview
 
@@ -24,5 +30,5 @@ This release adds a Python-based image converter that converts JPG/PNG files int
 
 ## Files
 
-- Debian package: `conversor-image-array_1.0.0_all.deb`
+- Debian package: `conversor-image-array_1.0.1_all.deb`
 - Windows binary: `ImageToArrayConverter.exe`
