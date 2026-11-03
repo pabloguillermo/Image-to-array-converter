@@ -9,6 +9,6 @@ mkdir -p "$OUT_DIR"
 chmod 755 "$PKG_DIR/usr/bin/image_to_array"
 chmod 755 "$PKG_DIR/usr/share/conversor-image-array/image_to_array.py"
 
-dpkg-deb --build "$PKG_DIR" "$OUT_DIR/conversor-image-array_1.0.1_all.deb"
+dpkg-deb --build "$PKG_DIR" "$OUT_DIR/conversor-image-array_1.0.2_all.deb"
 
-echo "Pacote Debian gerado em: $OUT_DIR/conversor-image-array_1.0.1_all.deb"
+echo "Pacote Debian gerado em: $OUT_DIR/conversor-image-array_1.0.2_all.deb"

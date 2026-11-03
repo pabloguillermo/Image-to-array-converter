@@ -1,4 +1,8 @@
-# Image-to-array-converter v1.0.1
+# Image-to-array-converter v1.0.2
+
+## Changes in 1.0.2
+
+- Set the package maintainer name and e-mail in the Debian control file
 
 ## Changes in 1.0.1
 
@@ -30,5 +34,5 @@ This release adds a Python-based image converter that converts JPG/PNG files int
 
 ## Files
 
-- Debian package: `conversor-image-array_1.0.1_all.deb`
+- Debian package: `conversor-image-array_1.0.2_all.deb`
 - Windows binary: `ImageToArrayConverter.exe`
